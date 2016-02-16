@@ -5,9 +5,6 @@ baseurl:
 
 favicon: "/img/favicon.ico"
 
-gems:
-  - jekyll-sitemap
-
 ############
 # Timeline #
 ############
