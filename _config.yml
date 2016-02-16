@@ -1,0 +1,26 @@
+name: Ana Silvia
+markdown: kramdown
+url: "https://a-silvia.github.io"
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/vib.png"
+    date: "November 2014 -  ?? "
+    description: "Ph. D. Student at VIB - UGent (Ghent, Belgium)"
+
+  - image: "/img/timeline/ibili.png"
+    date: "September 2013 - October 2014"
+    description: "Research Fellow at IBILI - University of Coimbra (Coimbra, Portugal)"
+
+  - image: "/img/timeline/fctuc.jpg"
+    date: "September 2007 - August 2013"
+    description: "M. Sc. in Biomedical Engineering - University of Coimbra (Coimbra, Portugal)"
+
+  - image: "/img/timeline/prague.png"
+    date: "September 2004 - August 2007"
+    description: "ERASMUS in CVUT (Prague, Czech Republic)"
+# First image of the Timeline
+timeline-img: "/img/timeline/before.png"
