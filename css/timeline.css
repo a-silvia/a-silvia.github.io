@@ -1,6 +1,8 @@
 ---
 ---
 
+
+
 .timeline {
     position: relative;
     padding: 0;
@@ -13,9 +15,9 @@
     top: 0;
     bottom: 0;
     left: 40px;
-    width: 2px;
+    width: 3px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #BBC7C7;
 }
 
 .timeline>li {
@@ -38,8 +40,7 @@
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
-    margin-top: 200px;
+    padding: 20px 20px 0 100px;
     text-align: left;
 }
 
@@ -58,22 +59,23 @@
 }
 
 .timeline>li .timeline-image {
-    z-index: 1000;
+    z-index: 100;
     position: absolute;
     left: 0;
-    max-width: 250px;
-    max-height: 250px;
+    width: 80px;
+    height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #BBC7C7;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #f1f1f1;
+    background-color: #BBC7C7;
 }
 
-.timeline-image img {
-    width: 100%;
+.timeline>li .timeline-image>img {
+    width: 170px;
     height: auto;
+
 }
 
 .img-me {
@@ -82,11 +84,11 @@
     width: 100px;
     height: 100px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #BBC7C7;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #f1f1f1;
+    background-color: #BBC7C7;
 }
 
 .timeline>li .timeline-image h4 {
@@ -103,13 +105,13 @@
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
+    padding: 20px 20px 0 100px;
+    text-align: right;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
     right: auto;
-    left: -30px;
+    left: -15px;
     border-right-width: 15px;
     border-left-width: 0;
 }
@@ -152,15 +154,20 @@
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
+        padding: 5px 20px 20px 30px;
+        text-align: left;
     }
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image>img {
+        width: 100%;
+        height: auto;
     }
 
     .img-me {
@@ -183,8 +190,8 @@
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
+        padding: 5px 30px 20px 20px;
+        text-align: right;
     }
 }
 
@@ -194,7 +201,7 @@
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
+        padding: 1px 20px 20px;
     }
 
     .timeline>li .timeline-image {
@@ -221,7 +228,7 @@
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
+        padding: 1px 20px 20px;
     }
 }
 
@@ -231,7 +238,7 @@
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 100px 20px 20px 0;
     }
 
     .timeline>li .timeline-image {
@@ -254,6 +261,6 @@
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 20px 0 20px 100px;
     }
 }
