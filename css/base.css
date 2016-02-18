@@ -58,7 +58,7 @@ nav li a:hover {
     color: #E5A1A1;
 }
 
-nav ul, footer ul {
+nav ul/*, footer ul*/ {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -67,9 +67,15 @@ nav ul, footer ul {
 
 footer {
     border-top: 1px solid #666666;
-    font-size: .8em;
+    /*font-size: .8em;*/
 }
-
+.icon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  padding-right: 2px;
+  margin-top: 2px;
+}
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -78,6 +84,8 @@ nav ul li, footer ul li {
 /* HELLO */
 div.Hello {
     clear:both;
+    margin-top: 54px;
+    margin-bottom: 54px;
 }
 
 #H{
