@@ -7,8 +7,9 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight:normal;
     color: #38647F;
 }
 
@@ -74,6 +75,69 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+/* HELLO */
+div.Hello {
+    clear:both;
+}
+
+#H{
+    font-size: 5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #38647F;
+    display: inline
+}
+#H:hover{
+    color: #48647F;
+}
+
+#e{
+    font-size: 5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #38647F;
+    display: inline
+}
+#e:hover{
+    color: #58647F;
+}
+
+#l1{
+    font-size: 5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #38647F;
+    display: inline
+}
+#l1:hover{
+    color: #68647F;
+}
+
+#l2{
+    font-size: 5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #38647F;
+    display: inline
+}
+#l2:hover{
+    color: #78647F;
+}
+
+#o{
+    font-size: 5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #38647F;
+    display: inline
+}
+#o:hover{
+    color: #88647F;
+}
+#exc{
+    font-size: 5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #38647F;
+    display: inline
+}
+#exc:hover{
+    color: #98647F;
+}
 /* BLOG: POST LIST */
 ul.posts li {
     text-decoration: none;
