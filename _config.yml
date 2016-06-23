@@ -5,7 +5,7 @@ baseurl:
 
 favicon: "/img/icons/favicon.svg"
 
-highlighter: pygments
+highlighter: rouge
 
 ############
 # Timeline #
