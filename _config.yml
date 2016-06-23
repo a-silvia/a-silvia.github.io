@@ -3,7 +3,9 @@ markdown: kramdown
 url: "https://a-silvia.github.io"
 baseurl: 
 
-favicon: "/img/icon/favicon.svg"
+favicon: "/img/icons/favicon.svg"
+
+highlighter: pygments
 
 ############
 # Timeline #

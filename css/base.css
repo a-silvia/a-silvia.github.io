@@ -2,7 +2,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #8A8A8A;
+    background-color: #E1D5CE;
     color: #B26060;
 }
 
@@ -73,7 +73,7 @@ footer {
   display: inline-block;
   width: 17px;
   height: 17px;
-  padding-right: 2px;
+  padding-right: 5px;
   margin-top: 2px;
 }
 nav ul li, footer ul li {
@@ -95,7 +95,7 @@ div.Hello {
     display: inline
 }
 #H:hover{
-    color: #48647F;
+    color: #FF0000;
 }
 
 #e{
@@ -105,7 +105,7 @@ div.Hello {
     display: inline
 }
 #e:hover{
-    color: #58647F;
+    color: #FF7F00;
 }
 
 #l1{
@@ -115,7 +115,7 @@ div.Hello {
     display: inline
 }
 #l1:hover{
-    color: #68647F;
+    color: #FFFB11;
 }
 
 #l2{
@@ -125,7 +125,7 @@ div.Hello {
     display: inline
 }
 #l2:hover{
-    color: #78647F;
+    color: #229E22;
 }
 
 #o{
@@ -135,7 +135,7 @@ div.Hello {
     display: inline
 }
 #o:hover{
-    color: #88647F;
+    color: #1D30BD;
 }
 #exc{
     font-size: 5em;
@@ -144,7 +144,7 @@ div.Hello {
     display: inline
 }
 #exc:hover{
-    color: #98647F;
+    color: #7942BD;
 }
 /* BLOG: POST LIST */
 ul.posts li {
