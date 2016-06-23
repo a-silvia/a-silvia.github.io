@@ -1,7 +1,9 @@
 ---
 ---
 
-
+body {
+    color: #B26060;
+}
 
 .timeline {
     position: relative;

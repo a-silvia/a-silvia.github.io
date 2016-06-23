@@ -29,7 +29,7 @@ data.head()
 
 
 
-<div>
+<div style="overflow-x:auto;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
