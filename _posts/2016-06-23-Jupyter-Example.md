@@ -22,7 +22,7 @@ data = sns.load_dataset('iris')
 {% endhighlight %}
 
 
-{% highlight python %}
+{% highlight py %}
 data.head()
 {% endhighlight %}
 
@@ -94,6 +94,4 @@ Just so that I have a plot, I will make a pairplot of this dataset - essentially
 sns.pairplot(data, hue="species")
 {% endhighlight %}
 
-
-![png](/notebooks/Example_files/Example_6_1.png)
-
+<img src="/notebooks/Example_files/Example_6_1.png" class="plot">

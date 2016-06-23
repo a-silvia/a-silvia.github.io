@@ -1,6 +1,10 @@
 ---
 ---
 
+p {
+	color: #8F596D;
+}
+
 table {
 	border-collapse: collapse;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
@@ -12,12 +16,21 @@ th {
     height: 20px;
     text-align: left;
     padding: 15px;
+    background-color: #D3C0AF;
 }
 
 td {
     border: 1px solid black;
     padding: 15px;
 }
+
+tr:nth-child(odd) {
+	background-color: #F5E8E0;
+}
 tr:nth-child(even) {
-	background-color: #D3C0AF;
+	background-color: #DBCDC0;
+}
+
+img.plot {
+	border: 2px solid black;
 }
