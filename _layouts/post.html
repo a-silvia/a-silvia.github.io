@@ -7,6 +7,11 @@
 			<link rel="stylesheet" type="text/css" href="/css/base.css">
 			<!-- link to specific stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/post.css">
+
+			<!-- highlight.js -->
+			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">
+			<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+			<script>hljs.initHighlightingOnLoad();</script>
 		</head>
 		<body>
 			<nav>
@@ -17,15 +22,15 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+
 			<h2>{{ page.title }}</h2>
 			<p class="post-meta">{{ page.date | date_to_string }}</p>
 
 
 			<div class="post">
 			  {{ content }}
-			</div> 
-			
+			</div>
+
 			</div>
 			{% include footer.html %}
 		</body>

@@ -1,11 +1,12 @@
 name: Ana Silvia
-markdown: kramdown
 url: "https://a-silvia.github.io"
-baseurl: 
+baseurl:
 
 favicon: "/img/icons/favicon.svg"
 
-highlighter: rouge
+# Editing Settings
+markdown: kramdown
+highlighter: none
 
 ############
 # Timeline #
@@ -27,5 +28,6 @@ events:
   - image: "/img/timeline/prague.png"
     date: "January 2011 - August 2011"
     description: "ERASMUS in CVUT (Prague, Czech Republic)"
+
 # First image of the Timeline
 timeline-img: "/img/timeline/before.png"
