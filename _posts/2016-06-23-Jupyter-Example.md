@@ -6,25 +6,25 @@ date: 2016-06-23
 The purpose of this notebook is only to experiment with integrating it into my blog. So let's run some simple python statements and see how things come together!
 
 
-{% highlight python %}
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
 import seaborn as sns
-{% endhighlight %}
+```
 
 I will load the infamous Iris dataset. I can do so from Seaborn:
 
 
-{% highlight python %}
+```
 data = sns.load_dataset('iris')
-{% endhighlight %}
+```
 
 
-{% highlight py %}
+```
 data.head()
-{% endhighlight %}
+```
 
 
 
@@ -90,8 +90,8 @@ data.head()
 Just so that I have a plot, I will make a pairplot of this dataset - essentially, a scatter plot where the axis are all the pairs of columns. The diagonal shows the distribution of each column in a histogram. The colors correspond to the species of irises in the data.
 
 
-{% highlight python %}
+```
 sns.pairplot(data, hue="species")
-{% endhighlight %}
+```
 
 <img src="/notebooks/Example_files/Example_6_1.png" class="plot">
