@@ -80,7 +80,10 @@ content:
         caption: 2014 -  2019
         description: |
           I developed data-driven tools to assist in the identification of
-          mass spectrometry data: HR-MS2 in proteomics, and MSI in metabolomics.
+          mass spectrometry data in two different -omics settings: HR-MS2
+          spectra in the context of proteomics, and MS images in the context of
+           metabolomics. You can read my thesis [here](https://www.linkedin.com/in/anasilviacsilva/overlay/1557925045290/single-media-viewer/?type=DOCUMENT&profileId=ACoAAAXRp8kBXs56rcPWZZyOfUydq-RbIz5Xz38).
+
       - layout: top-right
         title: Universidade de Coimbra
         sub_title: M. Sc.
@@ -89,7 +92,15 @@ content:
           I studied biomedical engineering with a specialisation in imaging and
           radiation. My MSc thesis was about simulating the propagation of light
            in a heterogeneous medium, from a finite differences implementation
-           of Maxwell's equations.
+           of Maxwell's equations. You can find a pdf of my thesis
+           [here](https://estudogeral.sib.uc.pt/handle/10316/26779).
+      - layout: top-right
+        title: České vysoké učení technické v Praze
+        sub_title: Erasmus
+        caption: 2011
+        description: |
+          I spent one semester in Prague as part of the Erasmus exchange
+          program.
   - title: A Little More About Me
     layout: text
     content: |
