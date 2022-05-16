@@ -26,10 +26,13 @@ about_content: | # this will include new lines to allow paragraphs
   I am a Data Scientist that has a hard time settling on one thing only. I have
   worked in academia and successfully defended my Ph.D. in 2019, in the lovely
   city of Ghent (Belgium). Afterwards I switched gears and opted for a career in
-  industry, and in 2020 relocated to Porto, Portugal (yes, mid pandemic!). I
-  love stubbornly (or, optimistically, preserverantly) riding my bike, picking
-  up assorted hobbies, reading, cooking, playing videogames, boardgames and
-  RPGs, and pretending my cats love me as much as I them!
+  industry, and in 2020 relocated to Porto, Portugal (yes, mid pandemic!). I am
+  very comfortable with <mark>python</mark> and have experience in data
+  engineering, although my preference is in modelling and in data visualization
+  and story-telling. I love stubbornly (or, optimistically, preserverantly)
+  riding my bike, picking up assorted hobbies, reading, cooking, playing
+  videogames, boardgames and RPGs, and pretending my cats love me as much as I
+  them!
 
 content:
   - title: Experience
@@ -40,7 +43,7 @@ content:
         sub_title: Data Scientist
         caption: September 2020 - present
         quote: >
-          FARFETCH is the global platform for luxury fashion.
+          FARFETCH is the global platform for luxury fashion
         description: |
           I have worked in the Experimentation team, supporting internal
           experiments (A/B tests and others) for about one and a half years.
@@ -53,7 +56,7 @@ content:
         caption: September 2019 - August 2020
         quote: >
             Crunch drives business impact by transforming the way organizations
-            use their data.
+            use their data
         description: |
           At Crunch I participated in several different projects, developing
           my skills very broadly -- both in data engineering, data science and
