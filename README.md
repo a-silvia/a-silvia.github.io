@@ -1,1 +1,1 @@
-# a-silvia.github.io
+My landing page. The template was graciously made available by [James W. Grant](http://www.jameswgrant.co.uk/) -- code available [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.

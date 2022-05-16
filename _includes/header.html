@@ -1,22 +1,39 @@
-{% if page.title == "Home" or page.title == "Blog" %}{% assign x = true %}{% endif %}
-
-{% if x == true %}
-    <header class="home__header">
-        <img alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
-
-        <h1>{{ site.name }}</h1>
-        <h2>{{ site.bio }}</h2>
-
-        <div class="home__header-social">
-            <a href="http://facebook.com/{{ site.facebook }}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a>
-            <a href="http://twitter.com/{{ site.twitter }}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
-            <a href="https://github.com/{{ site.github }}" target="_blank"><svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
-            <a href="http://instagram.com/{{ site.instagram }}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a>
-            <a href="http://linkedin.com/{{ site.linkedin }}" target="_blank"><svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg></a>
-            <a href="http://youtube.com/{{ site.youtube }}" target="_blank"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a>
-            <a href="mailto:{{ site.email }}" target="_blank"><svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
-        </div>
-    </header>
-{% endif %}
-
-{% include nav.html %}
+<div class="container header-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>{{ site.name | escape }}</h1>
+      <h2>{{ site.title | escape }}</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print">
+        {%- if site.github_username -%}
+          <li>
+            <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-linkedin" title="Linkedin link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.orcid_username -%}
+          <li>
+            <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-orcid" title="ORCiD link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.googlescholar_username -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-google" title="Google scholar link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+    </div>
+  </div>
+</div>
