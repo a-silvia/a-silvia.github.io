@@ -27,18 +27,15 @@ about_content: | # this will include new lines to allow paragraphs
   worked in academia and successfully defended my Ph.D. in 2019, in the lovely
   city of Ghent (Belgium). Afterwards I switched gears and opted for a career in
   industry, and in 2020 relocated to Porto, Portugal (yes, mid pandemic!). I am
-  very comfortable with <mark>python</mark> and have experience in data
-  engineering, although my preference is in modelling and in data visualization
-  and story-telling. I love stubbornly (or, optimistically, preserverantly)
-  riding my bike, picking up assorted hobbies, reading, cooking, playing
-  videogames, boardgames and RPGs, and pretending my cats love me as much as I
-  them!
+  very comfortable with <mark>python</mark> and while I do have experience in
+  data engineering, my preference is in <mark>modelling</mark> and in <mark>data
+   visualization</mark> and story-telling.
 
 content:
-  - title: Experience
+  - title: experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: FARFETCH
         sub_title: Data Scientist
         caption: September 2020 - present
@@ -47,10 +44,15 @@ content:
         description: |
           I have worked in the Experimentation team, supporting internal
           experiments (A/B tests and others) for about one and a half years.
-          Since January 2022 I have been part of the Personalisation &
-          Recommendations team, where we develop customer facing models and
-          support other teams' personalisation efforts.
-      - layout: right
+          This entailed diving deep into statistics, developing dashboards
+          and maintaining an internal platform used throughout the entire
+          company, as well as providing support and tailored solutions for
+          anyone's particular experimentation needs. In January 2022 I decided 
+          to join the Personalisation & Recommendations team, a newly formed
+          group whose aim is both the development of products that are
+          personalised to each user, and of models and tools that can support
+          other teams' personalisation efforts.
+      - layout: left
         title: Crunch Analytics
         sub_title: Data Scientist
         caption: September 2019 - August 2020
@@ -58,11 +60,13 @@ content:
             Crunch drives business impact by transforming the way organizations
             use their data
         description: |
-          At Crunch I participated in several different projects, developing
-          my skills very broadly -- both in data engineering, data science and
-           analytics, as well as providing training in the form of deep learning
-          courses.
-      - layout: right
+          Crunch is a consultancy company that focuses on aiding retailers
+          make use of their data to enable better decision making. At Crunch I
+          participated in several different projects, developing my skills very
+          broadly -- both in data engineering, data science and analytics, as
+          well as providing training in the form of deep learning courses and
+          communicating results and plans to a non-technical audience.
+      - layout: left
         title: iCBR
         sub_title: Research Fellow - Data Scientist
         caption: September 2013 - October 2014
@@ -70,11 +74,13 @@ content:
             iCBR (former IBILI) is a biomedical research institution connected
              to the University of Coimbra
         description: |
-          At iCBR I was part of a research project where we aimed to
-           preemptively identify patients at risk of developing an
-           opththalmological condition, based on OCT scans and through machine
-            learning
-  - title: Education
+          Between my M.Sc. and my Ph.D., I worked at IBILI for one year as a
+          data scientist. I was part of a research project where we aimed to
+          preemptively identify patients at risk of developing an
+          opththalmological condition, based on OCT scans and through machine
+          learning. We achieved very interesting results, that I got to showcase
+          at a few conferences.
+  - title: education
     layout: list
     content:
       - layout: top-right
@@ -82,10 +88,17 @@ content:
         sub_title: Ph. D.
         caption: 2014 -  2019
         description: |
-          I developed data-driven tools to assist in the identification of
-          mass spectrometry data in two different -omics settings: HR-MS2
-          spectra in the context of proteomics, and MS images in the context of
-           metabolomics. You can read my thesis [here](https://www.linkedin.com/in/anasilviacsilva/overlay/1557925045290/single-media-viewer/?type=DOCUMENT&profileId=ACoAAAXRp8kBXs56rcPWZZyOfUydq-RbIz5Xz38).
+          During my Ph.D. I worked in the
+          [CompOmics](https://www.compomics.com/) lab at Ghent University and
+          VIB. I was supervised by Prof. Dr. Lennart Martens and Dr. Sven
+          Degroeve, and developed data-driven tools to assist in the
+          identification of mass spectrometry data in two different -omics
+          settings: HR-MS2 spectra in the context of proteomics, and MS images
+          in the context of metabolomics. You can read my thesis
+          [here](https://www.linkedin.com/in/anasilviacsilva/overlay/1557925045290/single-media-viewer/?type=DOCUMENT&profileId=ACoAAAXRp8kBXs56rcPWZZyOfUydq-RbIz5Xz38).
+          Besides my thesis, I guided M.Sc. students in their Bioinformatics
+          and Machine Learning Courses, participated in conferences and in
+          European-wide projects.
 
       - layout: top-right
         title: Universidade de Coimbra
@@ -93,23 +106,34 @@ content:
         caption: 2007 - 2013
         description: |
           I studied biomedical engineering with a specialisation in imaging and
-          radiation. My MSc thesis was about simulating the propagation of light
-           in a heterogeneous medium, from a finite differences implementation
-           of Maxwell's equations. You can find a pdf of my thesis
-           [here](https://estudogeral.sib.uc.pt/handle/10316/26779).
+          radiation. This included courses in biology and phisiology, physics
+          and maths, and programming and management, so very well rounded. For
+          my MSc thesis I worked on a computational simulation of how light
+          propagates in a heterogeneous medium, taking a finite differences
+          implementation of Maxwell's equations and studying these systems'
+          behaviours in MatLab. You can find a pdf of my thesis
+          [here](https://estudogeral.sib.uc.pt/handle/10316/26779).
       - layout: top-right
         title: České vysoké učení technické v Praze
         sub_title: Erasmus
         caption: 2011
         description: |
           I spent one semester in Prague as part of the Erasmus exchange
-          program.
-  - title: A Little More About Me
+          program. This semester is very dear to me, as I met all sorts of
+          different people and had the opportunity to visit many different
+          places. I did my coursework in several different faculties scattered
+          around Prague.
+  - title: a little more about me
     layout: text
     content: |
       I am the definition of a jack-of-all-trades, master-of-none when it comes
       to my interests & hobbies. I never tire of learning and experimenting new
        things! Sustainability and community building are very important to me.
+       My native language is Portuguese, I'm fluent in English and have a basic
+       grasp on Dutch, French and Spanish. I love stubbornly (or, if you're an
+       optimist, preserverantly) riding my bike, picking up assorted hobbies,
+       reading, cooking, playing videogames, boardgames and RPGs, and
+       pretending my cats love me as much as I them!
 
 # Footer
 footer_show_references: false
