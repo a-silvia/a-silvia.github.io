@@ -26,7 +26,8 @@ about_content: | # this will include new lines to allow paragraphs
   I am a Data Scientist that has a hard time settling on one thing only. I have
   worked in academia and successfully defended my Ph.D. in 2019, in the lovely
   city of Ghent (Belgium). Afterwards I switched gears and opted for a career in
-  industry, and in 2020 relocated to Porto, Portugal (yes, mid pandemic!). I am
+  industry, and in 2020 relocated to Porto, Portugal (yes, mid pandemic!). In
+  late 2024 I decided that was a lateral move, and have returned to Ghent :) I am
   very comfortable with <mark>python</mark> and while I do have experience in
   data engineering, my preference is in <mark>modelling</mark> and in <mark>data
    visualization</mark> and story-telling.
@@ -35,10 +36,26 @@ content:
   - title: experience
     layout: list
     content:
+     - layout: left
+        title: Storytel
+        sub_title: Seniot data Scientist
+        caption: December 2022 - Present
+        quote: >
+          Always in a Story
+        description: |
+          At Storytel I joined the Machine Learning team and have focused on 
+          Recommendations and Personalisation, while also supporting the team's
+          experimentation and evaluation efforts. Being a smaller team, this 
+          role allows me to split my time between modelling, data pipelining,
+           and developing/improvement our live services and serving layer. On 
+          a personal note, it is very rewarding to be surrounded by book lovers
+           and my inner child is ecstatic that I  so close to what was my dream 
+           job growing up (working in a bookstore)! 
+          
       - layout: left
         title: FARFETCH
         sub_title: Data Scientist
-        caption: September 2020 - present
+        caption: September 2020 - December 2022
         quote: >
           FARFETCH is the global platform for luxury fashion
         description: |
@@ -127,13 +144,14 @@ content:
     layout: text
     content: |
       I am the definition of a jack-of-all-trades, master-of-none when it comes
-      to my interests & hobbies. I never tire of learning and experimenting new
-       things! Sustainability and community building are very important to me.
+      to my interests & hobbies. Currently am fixated on all things knitting. 
+      I never tire of learning and experimenting new things! Sustainability and
+      community building are very important to me.
        My native language is Portuguese, I'm fluent in English and have a basic
-       grasp on Dutch, French and Spanish. I love stubbornly (or, if you're an
-       optimist, preserverantly) riding my bike, picking up assorted hobbies,
-       reading, cooking, playing videogames, boardgames and RPGs, and
-       pretending my cats love me as much as I them!
+      grasp on French and Spanish. My grasp on Dutch is ever-improving. I love 
+      riding my bike, picking up assorted hobbies, reading, cooking, playing 
+      videogames, boardgames and RPGs, and pretending my cat loves me as much as I 
+      love her!
 
 # Footer
 footer_show_references: false
