@@ -8,28 +8,28 @@
       <ul class="icons no-print">
         {%- if site.github_username -%}
           <li>
-            <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-github-alt" title="Github link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.linkedin_username -%}
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-linkedin-in" title="Linkedin link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.orcid_username -%}
           <li>
-            <a target="_blank" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" rel="noopener noreferrer" href="https://orcid.org/{{ site.orcid_username | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-orcid" title="ORCiD link"></i>
             </a>
           </li>
         {%- endif -%}
         {%- if site.googlescholar_username -%}
           <li>
-            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" class="button button--sacnite button--round-l">
+            <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" class="button button--sacnite button--round-l">
               <i class="fa fa-graduation-cap" title="Google scholar link"></i>
             </a>
           </li>

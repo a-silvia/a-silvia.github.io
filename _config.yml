@@ -30,15 +30,17 @@ about_content: | # this will include new lines to allow paragraphs
   late 2024 I decided that was a lateral move, and have returned to Ghent :) I am
   very comfortable with <mark>python</mark> and while I do have experience in
   data engineering, my preference is in <mark>modelling</mark> and in <mark>data
-   visualization</mark> and story-telling.
+  visualization</mark> and story-telling. Since 2022 I've been honing my focus on
+  <mark>recommender systems</mark>, their impact and how they can be safely developed
+  and evaluated.
 
 content:
   - title: experience
     layout: list
     content:
-     - layout: left
+      - layout: left
         title: Storytel
-        sub_title: Seniot data Scientist
+        sub_title: Senior Data Scientist
         caption: December 2022 - Present
         quote: >
           Always in a Story
