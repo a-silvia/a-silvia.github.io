@@ -14,7 +14,7 @@
     {% endfor %}
     {%- if include.item.github -%}
       <p class="no-print">
-        <a href="https://github.com/{{ include.item.github }}" target="_blank">
+        <a href="https://github.com/{{ include.item.github }}" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
         </a>
       </p>
